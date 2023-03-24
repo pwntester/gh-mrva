@@ -15,7 +15,7 @@ Until the extension gets published you can use `go run .` instead of `gh mrva`
 ### Submit a new query
 
 ```bash
-gh mrva submit [--controller <CONTROLLER>] --lang <LANGUAGE> [--list-file <LISTFILE>] --list <LIST> --query <QUERY> [--name <NAME>]
+gh mrva submit [--controller <CONTROLLER>] --lang <LANGUAGE> [--list-file <LISTFILE>] --list <LIST> [--query <QUERY FILE> | --query-suite <SUITE FILE>] [--name <NAME>]
 ```
 
 Note: `controller` and `list-file` are only optionals if defined in the configuration file
